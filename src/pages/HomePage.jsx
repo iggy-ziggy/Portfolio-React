@@ -17,7 +17,7 @@ export default function HomePage() {
         </div>
       </section>
       {/* <!-- Media - about me --> */}
-      <div className="media block block--dark block--skewed about__me">
+      <div className="media block block--dark block--skewed about__me close-gap">
         <div className="media--content container grid grid--1x2">
             <div className="media__image box__box">
                 <div className="box"></div>
@@ -31,7 +31,7 @@ export default function HomePage() {
         </div>
       </div>
       {/* <!-- Skills --> */}
-      <div className="media block block--dark block--skewed skills">
+      <div className="media block block--dark block--skewed skills close-gap">
         <div className="media--content container grid grid--1x2">
             <div className="media__body">
               <h3 className="media__title">Skills</h3>
