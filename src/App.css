@@ -52,14 +52,14 @@
   transform: rotate(-90deg);
   transition: transform 0.3s;
 }
-
+*/
 .collapsible__content {
   max-height: 0;
   overflow: hidden;
   opacity: 0;
   transition: all 0.3s;
 }
-
+/*
 .collapsible--expanded .collapsible__chevron {
   transform: rotate(0);
 }
@@ -99,9 +99,9 @@
   background: red;
 } */
 
-.nav__list-closed {
+/* .nav__list-closed {
   display: none;
-}
+} */
 
 .nav__item {
   display: inline-block;
