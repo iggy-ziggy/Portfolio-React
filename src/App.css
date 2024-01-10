@@ -389,12 +389,15 @@ h2.hero--subtitle {
 }
 
 @media screen and (min-width: 768px) {
+  .hero {
+    margin: 10rem;
+  }
   .hero--header {
     align-self: center;
   }
 
   .hero--heading {
-    font-size: 5rem;
+    font-size: 6rem;
   }
 
   .hero--subtitle {
