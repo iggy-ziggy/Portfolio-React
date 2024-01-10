@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import toggle from '../assets/images/toggle.png';
-import portfolioLogo from '../assets/images/portfolio-logo.png';
 import navLogo from '../assets/images/nav-logo-mh.png';
 
 export default function Nav({ links }) {
