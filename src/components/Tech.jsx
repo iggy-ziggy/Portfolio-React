@@ -3,13 +3,13 @@ import tech from '../lib/Tech';
 
 export default function Tech() {
     return (
-        <div className="tech-container">
-              <ul className="row mb-4 tech-list">
+        <div className="tech--container">
+              <ul className="tech--list">
               {tech.map(function (tech, index) {
                 return (
-                  <li className="col mx-4 tech-li" key={index}>
-                    <i className={tech.name} id="tech-item"></i>
-                    <p className="tech-item-title">{tech.title}</p>                   
+                  <li className="tech__list-item" key={index}>
+                    <i className={tech.name} id="tech__item"></i>
+                    <p className="tech__item-title">{tech.title}</p>                   
                   </li>
                 );
               })}
