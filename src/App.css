@@ -214,6 +214,12 @@ a:hover {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 768px) {
+  .block--skewed {
+    clip-path: polygon(0% 5%, 100% 0%, 100% 95%, 0% 100%);
+  }
+}
+
 /* Collapsibles */
 
 /* .collapsible__header {
@@ -494,6 +500,13 @@ h2.hero--subtitle {
   }
   .tech__item-title {
     font-size: 1.7rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .tech .grid--1x2 {
+    justify-items: center;
+    align-items: center;
   }
 }
 

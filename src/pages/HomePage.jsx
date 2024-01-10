@@ -1,3 +1,5 @@
+import Tech from '../components/Tech';
+
 export default function HomePage() {
     return (
         <div>
@@ -31,18 +33,12 @@ export default function HomePage() {
         </div>
       </div>
       {/* <!-- Skills --> */}
-      <div className="media block block--dark block--skewed skills close-gap">
+      <div className="media block block--dark block--skewed tech close-gap">
         <div className="media--content container grid grid--1x2">
             <div className="media__body">
-              <h3 className="media__title">Skills</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime tempora
-                recusandae modi iste dolor quam nostrum ad soluta magni perferendis.
-              </p>
+              <h3 className="media__title">Tech</h3>
             </div>
-            <div className="media__image box__box">
-                <div className="box"></div>
-            </div>
+              <Tech />
         </div>
       </div>
         </div>
