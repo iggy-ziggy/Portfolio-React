@@ -6,6 +6,7 @@
   --color-coral: rgb(255, 165, 147);
   --color-purple: rgb(222, 173, 255);
   --color-light-purple: rgb(240, 218, 255);
+  --color-dark-purple: rgb(32, 7, 49);
   --color-light-grey: rgb(198, 195, 207);
   --color-medium-grey: rgb(67, 64, 69);
   --color-dark-grey: rgb(40, 39, 42);
@@ -46,16 +47,32 @@ html {
 }
 
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 2.4rem;
   line-height: 1.5;
-  background: rgb(57, 54, 58);
+  /* purple bullseye */
+  /* background: rgb(57, 54, 58); */
+  /* background-color: #000000;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%23000000' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%23230046' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%232f0052' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%233b075e' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%2348156a' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23552277' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover; */
+  /* grey bullseye */
+  /* background-color: #000000;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%23000000' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%231f1526' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%23322739' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%2345394d' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%235a4d61' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%236F6277' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover; */
+/* darker grey bullseye */
+  background-color: #000000;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%23000000' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%231a111e' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%23271e2c' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%23352c3a' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%23443a49' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23534958' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
   color: var(--color-body);
   margin: 0;
 }
 
 h1 {
-  letter-spacing: .18rem;
+  letter-spacing: 0.18rem;
   font-weight: 500;
 }
 
@@ -156,7 +173,8 @@ a:hover {
 }
 
 .block--dark {
-  background: var(--color-dark-grey);
+  /* background: var(--color-dark-grey); */
+  background: rgba(35, 31, 43, 0.7);
   color: #7b858b;
 }
 
@@ -221,7 +239,8 @@ a:hover {
 /* Nav Bar */
 
 .nav {
-  background: var(--color-dark-grey);
+  background: rgba(28, 26, 30, 0.6);
+  /* background: var(--color-dark-grey); */
   border-bottom: 2px solid rgba(212, 209, 222, 0.1);
   display: flex;
   flex-wrap: wrap;
@@ -326,11 +345,11 @@ a:hover {
   padding: 1.5rem;
 }
 
-@media screen and (min-width:768px) {
-  /* .media--content {
-    max-width: 50%;
-    text-align: center;
-  } */
+@media screen and (min-width: 768px) {
+  .media__title,
+  .media__body {
+    text-align: left;
+  }
 }
 
 /* Hero */
@@ -347,7 +366,7 @@ a:hover {
 
 .hero--heading {
   color: white;
-  font-size: 5rem;
+  font-size: 5.5rem;
 }
 
 h2.hero--subtitle {
@@ -392,7 +411,6 @@ h2.hero--subtitle {
 
 .about__me {
   /* padding: 4rem; */
-  
 }
 
 .about__me .media__title,

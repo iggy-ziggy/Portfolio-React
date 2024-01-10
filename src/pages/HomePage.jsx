@@ -2,18 +2,18 @@ export default function HomePage() {
     return (
         <div>
             {/* <!-- Hero --> */}
-    <section className="block block--dark block--skewed-left hero hero--container">
-        <div className="container grid grid--1x2">
+    <section className="block hero hero--container">
+        <div className="container ">
           <header className="hero--header">
             <h1 className="hero--heading">Matthew Haynes</h1>
             <h2 className="hero--subtitle">
-              Developer / Artist
+              Developer / Artist / Night Owl
             </h2>
           </header>
-          <img
+          {/* <img
         className="hero__image"
-        src="./src/assets/images/dummy-hero.png"
-      ></img>
+        src="./src/assets/images/moon.png"
+      ></img> */}
         </div>
       </section>
       {/* <!-- Media - about me --> */}
