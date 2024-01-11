@@ -22,8 +22,9 @@ export default function HomePage() {
       <section data-aos="fade-up" data-aos-duration="1000">
           <div className="media block block--dark block--skewed about__me close-gap">
             <div className="media--content container grid grid--1x2">
-                <div className="media__image box__box">
-                    <div className="box"></div>
+                <div className="media__image">
+                    {/* <div className="box"></div> */}
+                    <img src="./src/assets/images/portfolio-self.png" alt="" />
                 </div>
                 <div className="media__body">
                   <h3 className="media__title">A Little About Me</h3>

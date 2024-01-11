@@ -383,7 +383,17 @@ a:hover {
 }
 
 .media__image {
+  /* border: 2px solid var(--color-body); */
   justify-self: center;
+  /* padding: 2rem; */
+}
+.media__image img {
+  margin-bottom: 5rem;
+  position: relative;
+  top: 40px;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 100px;
 }
 
 .media__title {
