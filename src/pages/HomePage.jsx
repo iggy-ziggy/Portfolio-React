@@ -19,28 +19,30 @@ export default function HomePage() {
         </div>
       </section>
       {/* <!-- Media - about me --> */}
-      <div className="media block block--dark block--skewed about__me close-gap">
-        <div className="media--content container grid grid--1x2">
-            <div className="media__image box__box">
-                <div className="box"></div>
+      <section>
+          <div className="media block block--dark block--skewed about__me close-gap">
+            <div className="media--content container grid grid--1x2">
+                <div className="media__image box__box">
+                    <div className="box"></div>
+                </div>
+                <div className="media__body">
+                  <h3 className="media__title">A Little About Me</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim sit pariatur tenetur recusandae blanditiis. Laboriosam ipsum voluptatem iusto? Veniam itaque totam expedita numquam, ab ad sapiente consequatur eum labore assumenda rerum reprehenderit a, laborum omnis vitae saepe quia nostrum consectetur culpa cum in. Dolore numquam deserunt enim adipisci magnam reiciendis!
+                  </p>
+                </div>
             </div>
-            <div className="media__body">
-              <h3 className="media__title">A Little About Me</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim sit pariatur tenetur recusandae blanditiis. Laboriosam ipsum voluptatem iusto? Veniam itaque totam expedita numquam, ab ad sapiente consequatur eum labore assumenda rerum reprehenderit a, laborum omnis vitae saepe quia nostrum consectetur culpa cum in. Dolore numquam deserunt enim adipisci magnam reiciendis!
-              </p>
-            </div>
-        </div>
-      </div>
+          </div>
+      </section>
       {/* <!-- Skills --> */}
-      <div className="media block block--dark block--skewed tech close-gap">
-        <div className="media--content container grid grid--1x2">
-            <div className="media__body">
-              <h3 className="media__title">Tech</h3>
+      <section>
+          <div className="media block block--dark block--skewed tech close-gap">
+            <div className="media--content container grid grid--1x2">
+                  <h3 className="media__title">Tech</h3>
+                  <Tech />
             </div>
-              <Tech />
-        </div>
-      </div>
+          </div>
+      </section>
         </div>
     )
 }

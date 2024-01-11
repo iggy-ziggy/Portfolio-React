@@ -8,7 +8,7 @@ export default function Tech() {
               {tech.map(function (tech, index) {
                 return (
                   <li className="tech__list-item" key={index}>
-                    <p className="tech__item-title">{tech.title}</p>                   
+                    {/* <p className="tech__item-title">{tech.title}</p>                    */}
                     <i className={tech.name} id="tech__item"></i>
                   </li>
                 );
