@@ -14,6 +14,7 @@
   --color-body: #918ca4;
   --color-body-darker: #5c5577;
   --color-media-body: rgba(212, 209, 222, 0.96);
+  --translucent-purple: rgba(28, 26, 30, 0.7);
 }
 
 *,
@@ -286,7 +287,6 @@ a:hover {
 
 .nav {
   align-items: center;
-  background: rgba(28, 26, 30, 0.6);
   border-bottom: 2px solid rgba(212, 209, 222, 0.1);
   display: flex;
   flex-wrap: wrap;
@@ -352,6 +352,24 @@ a:hover {
   .nav__item {
     border: 0;
   }
+}
+
+.nav,
+.footer {
+  background: var(--translucent-purple);
+}
+
+/* Footer */
+
+.footer,
+.footer__content {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__content a {
+  color: white;
+  margin: 4rem;
 }
 
 /* Media */
@@ -535,7 +553,7 @@ h2.hero--subtitle {
     align-items: center;
   }
   .tech .media__title {
-    font-size: 4rem;
+    font-size: 5rem;
     border: none;
   }
 }
@@ -645,4 +663,19 @@ h2.hero--subtitle {
 .project__btn:hover {
   color: white;
   background-color: rgb(29, 137, 141);
+}
+
+@media screen and (max-width: 768px) {
+  .project__image {
+    opacity: 0.5;
+  }
+  .project__title {
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio--container .grid--1x2 {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
