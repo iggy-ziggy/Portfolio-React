@@ -8,7 +8,7 @@ export default function Portfolio() {
           {projects.map(function (project, index) {
             return (
               <div className="project--card" data-aos="fade-up" data-aos-duration="1000" key={index}>
-                <img src={project.image} alt="project image" className="project__image"></img>
+                <div className="image__container"><img src={project.image} alt="project image" className="project__image"></img></div>
                 <p className="project__title">{project.title}</p>
                 <div className="btn--container">
                     <a
