@@ -91,6 +91,11 @@ background-size: cover; */
   margin: 0;
 }
 
+body[data-aos-duration='1000'] [data-aos],
+[data-aos][data-aos][data-aos-duration='1000'] {
+  transition-duration: 1000ms;
+}
+
 h1 {
   letter-spacing: 0.18rem;
   font-weight: 500;
@@ -552,17 +557,18 @@ h2.hero--subtitle {
 }
 
 .project--card {
-  animation: scrollIn 1s ease-in-out;
+  /* animation: scrollIn 1s ease-in-out; */
   margin: 1.5rem;
   overflow: hidden;
   position: relative;
   text-align: center;
+  /* transition: all 0.3s ease-in; */
   width: 250px;
 }
 
 .project__title {
   background-color: transparent;
-  color: var(--color-light-gold);
+  color: var(--color-gold);
   font-size: 3.5rem;
   font-weight: bold;
   left: 50%;
@@ -579,16 +585,21 @@ h2.hero--subtitle {
 .project__image {
   /* width: 275px;
   height: auto; */
-  /* border: 5px solid var(--gold); */
+  border: 2px solid var(--color-body);
   border-radius: 100%;
   height: auto;
   max-width: 100%;
+  padding: 2rem;
   transition: filter 0.3s ease-in-out;
   /* animation: growImage 1s ease-out; */
 }
 
 .project--card:hover .project__title {
   opacity: 1;
+}
+
+.project--card:hover .project__image {
+  opacity: 0.5;
 }
 
 /* @keyframes growImage {

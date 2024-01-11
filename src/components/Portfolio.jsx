@@ -7,7 +7,7 @@ export default function Portfolio() {
       <div className="grid grid--1x2">
           {projects.map(function (project, index) {
             return (
-              <div className="project--card" key={index}>
+              <div className="project--card" data-aos="fade-up" data-aos-duration="1000" key={index}>
                 <img src={project.image} alt="project image" className="project__image"></img>
                 <p className="project__title">{project.title}</p>
                 <div className="btn--container">

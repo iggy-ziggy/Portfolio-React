@@ -7,8 +7,8 @@ export default function HomePage() {
     <section className="block hero hero--container">
         <div className="container ">
           <header className="hero--header">
-            <h1 className="hero--heading">Matthew Haynes</h1>
-            <h2 className="hero--subtitle">
+            <h1 data-aos="fade-right" data-aos-duration="1000" className="hero--heading">Matthew Haynes</h1>
+            <h2 data-aos="fade-left" data-aos-duration="1000" className="hero--subtitle">
               Developer / Artist / Night Owl
             </h2>
           </header>
@@ -19,7 +19,7 @@ export default function HomePage() {
         </div>
       </section>
       {/* <!-- Media - about me --> */}
-      <section>
+      <section data-aos="fade-up" data-aos-duration="1000">
           <div className="media block block--dark block--skewed about__me close-gap">
             <div className="media--content container grid grid--1x2">
                 <div className="media__image box__box">
@@ -35,7 +35,7 @@ export default function HomePage() {
           </div>
       </section>
       {/* <!-- Skills --> */}
-      <section>
+      <section data-aos="fade-up" data-aos-duration="1000">
           <div className="media block block--dark block--skewed tech close-gap">
             <div className="media--content container grid grid--1x2">
                   <h3 className="media__title">Tech</h3>
