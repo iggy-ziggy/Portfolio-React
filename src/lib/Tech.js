@@ -1,10 +1,10 @@
 const tech = [
     {
-      name: "devicon-html5-plain",
+      name: "devicon-html5-plain-wordmark",
       title: "HTML5",
     },
     {
-      name: "devicon-css3-plain",
+      name: "devicon-css3-plain-wordmark",
       title: "CSS3",
     },
     {
@@ -12,35 +12,35 @@ const tech = [
       title: "JavaScript",
     },
     {
-      name: "devicon-handlebars-plain",
+      name: "devicon-handlebars-plain-wordmark",
       title: "Handlebars",
     },
     {
-      name: "devicon-bootstrap-plain",
+      name: "devicon-bootstrap-plain-wordmark",
       title: "Bootstrap",
     },
     {
-      name: "devicon-react-original",
+      name: "devicon-react-original-wordmark",
       title: "React",
     },
     {
-      name: "devicon-mongodb-plain",
+      name: "devicon-mongodb-plain-wordmark",
       title: "MongoDB",
     },
     {
-      name: "devicon-nodejs-plain",
+      name: "devicon-nodejs-plain-wordmark",
       title: "Node.js",
     },
     {
-      name: "devicon-sequelize-plain",
+      name: "devicon-sequelize-plain-wordmark",
       title: "Sequelize",
     },
     {
-      name: "devicon-graphql-plain",
+      name: "devicon-graphql-plain-wordmark",
       title: "GraphQL",
     },
     {
-      name: "devicon-express-original",
+      name: "devicon-express-original-wordmark",
       title: "Express",
     },
   ];
