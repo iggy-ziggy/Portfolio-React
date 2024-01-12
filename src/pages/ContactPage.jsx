@@ -1,10 +1,12 @@
+import Contact from "../components/Contact";
+
 export default function ContactPage() {
     return (
         <div>
-            <h2>Contact</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam qui quaerat nobis illum molestias, neque consequatur similique dicta quasi rerum?
-            </p>
+            <div className="contact--header">
+                <h2 className="contact--heading">Contact</h2>
+            </div>
+            <Contact />
         </div>
     )
 }

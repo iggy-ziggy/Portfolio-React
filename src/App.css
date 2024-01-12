@@ -689,3 +689,63 @@ h2.hero--subtitle {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+/* Contact */
+
+.contact--header {
+  margin: 8rem;
+}
+
+.contact--heading {
+  text-align: center;
+  font-size: 4rem;
+  color: white;
+}
+
+.contact--form {
+  text-align: center;
+  max-width: 80%;
+  height: 100vh;
+  margin: 20px auto;
+}
+
+Form {
+  border: 3px solid var(--color-body);
+  border-radius: 10px;
+  padding: 3rem;
+}
+
+.ui.form {
+  font-size: 2rem;
+}
+
+.ui.form .field>label {
+  color: var(--color-light-gold);
+}
+
+.ui.button.contact__btn {
+  background: var(--color-light-gold);
+  border-radius: 30px;
+  font-size: 2rem;
+}
+
+/*#form-input-control-email {
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+#form-input-control-last-name {
+  padding: 2.5rem;
+  font-size: 2rem;
+}
+
+#form-textarea-control-opinion {
+  padding: 2rem;
+  font-size: 2rem;
+} */
+
+@media screen and (min-width: 768px) {
+  .contact--form {
+    max-width: 50%;
+  }
+}
