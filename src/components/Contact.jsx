@@ -3,12 +3,9 @@ import emailjs from 'emailjs-com';
 import { Form, Input, TextArea, Button } from 'semantic-ui-react';
 import Swal from 'sweetalert2';
 
-// const SERVICE_ID = process.env.REACT_APP_SERVICE_ID;
-// const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID;
-// const PUBLIC_KEY = process.env.REACT_APP_PUBLIC_KEY;
-const SERVICE_ID = 'service_jfmua2k';
-const TEMPLATE_ID = 'template_11fs01p';
-const PUBLIC_KEY = 'RiOErP66zpjvU7Sla';
+const SERVICE_ID = import.meta.env.VITE_SERVICE_ID;
+const TEMPLATE_ID = import.meta.env.VITE_TEMPLATE_ID;
+const PUBLIC_KEY = import.meta.env.VITE_PUBLIC_KEY;
 
 export default function Contact() {
     const handleOnSubmit = (e) => {
