@@ -19,6 +19,7 @@ export default function DownloadResume() {
             <button
               className="btn resume__download-btn"
               onClick={onButtonClick}
+              disabled
             >
               Download Resume (coming soon...)
             </button>
