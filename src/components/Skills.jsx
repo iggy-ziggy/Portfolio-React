@@ -3,17 +3,19 @@ import skills from '../lib/Skills';
 
 export default function Skills() {
     return (
-        <div className="skills--container">
+        <div>
               <h1 className="skills__title">Skills</h1>
-              <ul className="skills__list">
-              {skills.map(function (skills, index) {
-                return (
-                  <li className="skills-li" key={index}>
-                    {skills.name}                   
-                  </li>
-                );
-              })}
-              </ul>
+              <div className="container block skills--container">
+                  <ul className="list grid grid--1x2-small grid--1x3 skills__list">
+                  {skills.map(function (skills, index) {
+                    return (
+                      <li key={index}>
+                        {skills.name}
+                      </li>
+                    );
+                  })}
+                  </ul>
+              </div>
         </div>
     )
 }

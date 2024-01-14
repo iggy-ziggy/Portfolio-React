@@ -6,31 +6,22 @@ const skills = [
     name: "Problem Solving",
   },
   {
-    name: "<another skill>",
+    name: "Time Management",
   },
   {
-    name: "<another skill>",
+    name: "Clean Design",
   },
   {
-    name: "<another skill>",
+    name: "UI/UX",
   },
   {
-    name: "<another skill>",
+    name: "Databases",
   },
   {
-    name: "<another skill>",
+    name: "Debugging",
   },
   {
-    name: "<another skill>",
-  },
-  {
-    name: "<another skill>",
-  },
-  {
-    name: "<another skill>",
-  },
-  {
-    name: "<another skill>",
+    name: "Tunnel Vision",
   },
 ];
 

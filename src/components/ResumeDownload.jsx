@@ -15,11 +15,13 @@ export default function DownloadResume() {
       };
 
       return (
-        <button
-          className="rounded-pill btn-warning resume-btn"
-          onClick={onButtonClick}
-        >
-          Download Resume
-        </button>
+        <div className="resume__btn-container">
+            <button
+              className="btn resume__download-btn"
+              onClick={onButtonClick}
+            >
+              Download Resume (coming soon...)
+            </button>
+        </div>
       )
 }
