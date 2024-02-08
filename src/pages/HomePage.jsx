@@ -1,4 +1,6 @@
 import Tech from '../components/Tech';
+import authorImage
+ from '../assets/images/portfolio-self.png';
 
 export default function HomePage() {
     return (
@@ -24,7 +26,8 @@ export default function HomePage() {
             <div className="media--content container grid grid--1x2">
                 <div className="media__image">
                     {/* <div className="box"></div> */}
-                    <img src="./src/assets/images/portfolio-self.png" alt="" />
+                    <img src={authorImage
+                    } alt="" />
                 </div>
                 <div className="media__body">
                   <h3 className="media__title">A Little About Me</h3>
