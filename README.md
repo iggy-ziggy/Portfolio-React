@@ -31,7 +31,7 @@ From the main page, you can read a little about me and see the main technologies
 * leave me a message with the contact form
 
 Home  
-
+<img width="350" alt="home" src="https://github.com/iggy-ziggy/Portfolio-React/assets/128410000/b936f1d8-8f5d-40fa-a524-901532e815e5">  
 Portfolio  
 <img width="350" alt="portfolio" src="https://github.com/iggy-ziggy/Portfolio-React/assets/128410000/56120a97-7cd0-44b6-b4a9-8aceb18d6667">  
 Skills  
