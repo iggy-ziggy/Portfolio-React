@@ -10,13 +10,13 @@ const projects = [
         title: 'NightCap',
         image: 'https://cdn-icons-png.flaticon.com/512/4097/4097657.png',
         github: 'https://github.com/',
-        deploy: ''
+        deploy: 'https://stark-hollows-24341-bcd3c1cc7ff9.herokuapp.com/'
     },
     {
         title: 'Artwork Critique App',
         image: 'https://cdn-icons-png.flaticon.com/512/3659/3659802.png',
         github: 'https://github.com/iggy-ziggy/artwork-critique-app',
-        deploy: ''
+        deploy: 'https://hidden-crag-39805-685b6677aef9.herokuapp.com/'
     },
     {
         title: 'Power Grid',
