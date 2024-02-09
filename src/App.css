@@ -169,7 +169,8 @@ a:hover {
 }
 
 .fa-lightbulb {
-  /* color: var(--color-light-teal); */
+  color: var(--color-light-gold);
+  /* opacity: 0.75; */
   font-size: 12rem;
   margin-bottom: 4rem;
 }
@@ -570,13 +571,13 @@ h2.hero--subtitle {
 
 .tech__list-item {
   text-align: center;
-  max-width: 25vw;
   padding: 2rem;
 }
 
 #tech__item {
   color: var(--color-light-gold);
   font-size: 10rem;
+  max-width: 25vw;
 }
 
 .tech__item-title {
@@ -713,14 +714,26 @@ h2.hero--subtitle {
   background-color: rgb(29, 137, 141);
 }
 
-@media screen and (max-width: 768px) {
+@media (hover: none) {
   .project__image {
     opacity: 0.5;
   }
   .project__title {
     opacity: 1;
   }
+  .hovertest {
+    background: yellow;
+  }
 }
+
+/* @media screen and (max-width: 768px) {
+  .project__image {
+    opacity: 0.5;
+  }
+  .project__title {
+    opacity: 1;
+  }
+} */
 
 @media screen and (min-width: 768px) {
   .portfolio--container {
@@ -757,7 +770,8 @@ h2.hero--subtitle {
 }
 
 Form {
-  border: 3px solid var(--color-body);
+  /* border: 3px solid var(--color-body); */
+  border: 3px solid rgb(255, 230, 146, 0.35);
   border-radius: 10px;
   padding: 3rem;
 }
@@ -827,6 +841,10 @@ h1.skills__title {
   margin: 1rem;
   padding: 2rem;
   text-align: center;
+}
+
+.skills__text {
+  font-size: 2.2rem;
 }
 
 @media screen and (min-width: 1024px) {

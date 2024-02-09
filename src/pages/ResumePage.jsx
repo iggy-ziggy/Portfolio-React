@@ -15,7 +15,7 @@ export default function ResumePage() {
             <div className="media__image icon--vertical-align">
             <i className="fa-regular fa-lightbulb"></i>
             </div>
-          <div className="media__body teal-text">
+          <div className="media__body skills__text teal-text">
             <p>
               I love a challenge. The chance to tackle problems and see them
               wrestled to the ground is exhilarating. And, occasionally,

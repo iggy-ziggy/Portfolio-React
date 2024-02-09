@@ -21,7 +21,7 @@ export default function DownloadResume() {
               onClick={onButtonClick}
               disabled
             >
-              Download Resume (coming soon...)
+              Download Resume
             </button>
         </div>
       )
