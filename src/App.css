@@ -13,7 +13,7 @@
   --color-dark-grey: rgb(40, 39, 42);
   --color-body: #918ca4;
   --color-body-darker: #5c5577;
-  --color-media-body: rgba(212, 209, 222, 0.96);
+  --color-media-body: rgb(223, 220, 233);
   --translucent-purple: rgba(28, 26, 30, 0.7);
 }
 
@@ -31,6 +31,14 @@
   margin-top: 7rem;
   margin: 5rem;
   width: 100px;
+}
+
+.light-teal-text {
+  color: var(--color-light-teal);
+}
+
+.teal-text {
+  color: var(--color-teal);
 }
 
 /* .border {
@@ -155,6 +163,24 @@ a:hover {
   fill: var(--color-light-teal);
 }
 
+.icon--vertical-align {
+  display: flex;
+  align-items: center;
+}
+
+.fa-lightbulb {
+  /* color: var(--color-light-teal); */
+  font-size: 12rem;
+  margin-bottom: 4rem;
+}
+
+@media screen and (min-width: 768px) {
+  .fa-lightbulb {
+    font-size: 20rem;
+    margin-bottom: 0;
+  }
+}
+
 /* Buttons */
 
 .btn {
@@ -223,7 +249,7 @@ a:hover {
 .block--dark {
   /* background: var(--color-dark-grey); */
   background: rgba(35, 31, 43, 0.7);
-  color: #7b858b;
+  /* color: #7b858b; */
 }
 
 .block--dark h1,
@@ -590,12 +616,11 @@ h2.hero--subtitle {
 /* Portfolio */
 
 .portfolio--container {
-  margin: 10rem;
+  margin: auto;
 }
 
 .portfolio--container .grid {
   justify-items: center;
-  gap: 8rem;
 }
 
 .project--card {
@@ -694,6 +719,15 @@ h2.hero--subtitle {
   }
   .project__title {
     opacity: 1;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio--container {
+    margin: 8rem auto;
+  }
+  .portfolio--container .grid {
+    gap: 8rem;
   }
 }
 
