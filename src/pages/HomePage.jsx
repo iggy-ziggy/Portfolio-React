@@ -29,7 +29,10 @@ export default function HomePage() {
                 <div className="media__body">
                   <h3 className="media__title">A Little About Me</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim sit pariatur tenetur recusandae blanditiis. Laboriosam ipsum voluptatem iusto? Veniam itaque totam expedita numquam, ab ad sapiente consequatur eum labore assumenda rerum reprehenderit a, laborum omnis vitae saepe quia nostrum consectetur culpa cum in. Dolore numquam deserunt enim adipisci magnam reiciendis!
+                    As a developer and artist, I approach code with the same passion I do my painting. For me, they both stem from the same place: the need to explore. Every keystroke, every brushstroke, holds the same possibility: is this what makes it? Is this what breaks it? The desire to create and problem-solve is what gets me up each morning.
+                  </p>
+                  <p>
+                    The moment a process starts working comfortably, I begin looking for ways to improve it. There is nothing that works so well that it cannot be improved upon.
                   </p>
                 </div>
             </div>
