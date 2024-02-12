@@ -9,7 +9,7 @@ export default function HomePage() {
           <header className="hero--header">
             <h1 data-aos="fade-right" data-aos-duration="1000" className="hero--heading">Matthew Haynes</h1>
             <h2 data-aos="fade-left" data-aos-duration="1000" className="hero--subtitle">
-              Developer / Artist / Night Owl
+              Developer / Artist / Avid Learner
             </h2>
           </header>
           {/* <img
