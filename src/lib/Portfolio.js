@@ -6,12 +6,12 @@ const projects = [
         github: 'https://github.com/iggy-ziggy/cloud-hosting-front-end',
         deploy: 'https://cloud-hosting-front-end.netlify.app'
     },
-    {
-        title: 'NightCap',
-        image: 'https://cdn-icons-png.flaticon.com/512/4097/4097657.png',
-        github: 'https://github.com/',
-        deploy: 'https://stark-hollows-24341-bcd3c1cc7ff9.herokuapp.com/'
-    },
+    // {
+    //     title: 'NightCap',
+    //     image: 'https://cdn-icons-png.flaticon.com/512/4097/4097657.png',
+    //     github: 'https://github.com/',
+    //     deploy: 'https://stark-hollows-24341-bcd3c1cc7ff9.herokuapp.com/'
+    // },
     {
         title: 'Artwork Critique App',
         image: 'https://cdn-icons-png.flaticon.com/512/3659/3659802.png',
