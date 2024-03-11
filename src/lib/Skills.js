@@ -20,9 +20,6 @@ const skills = [
   {
     name: "Debugging",
   },
-  {
-    name: "Tunnel Vision",
-  },
 ];
 
 export default skills;
