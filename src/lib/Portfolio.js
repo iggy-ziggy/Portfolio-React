@@ -27,8 +27,8 @@ const projects = [
     {
         title: 'Power Grid',
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlAywbtoaGH14yP-QqXZioWv9z2W1NGYZb5rkUObt6Gob-kGxqF1YcKrhxT0_cj4beRgc&usqp=CAU',
-        github: 'https://github.com/larsly/PowerGrid',
-        deploy: 'https://larsly.github.io/PowerGrid/'
+        github: 'https://github.com/iggy-ziggy/PowerGrid',
+        deploy: 'https://iggy-ziggy.github.io/PowerGrid/'
     },
     {
         title: 'Social Network API',
