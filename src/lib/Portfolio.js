@@ -1,6 +1,12 @@
 
 const projects = [
     {
+        title: 'Game Hub',
+        image: 'https://cdn-icons-png.flaticon.com/256/486/486792.png',
+        github: 'https://github.com/iggy-ziggy/game-hub',
+        deploy: 'https://game-hub-wine-ten.vercel.app/'
+    },
+    {
         title: 'Cloud Hosting Front End',
         image: 'https://cdn-icons-png.flaticon.com/512/115/115804.png',
         github: 'https://github.com/iggy-ziggy/cloud-hosting-front-end',
