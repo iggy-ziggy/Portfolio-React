@@ -627,7 +627,7 @@ h2.hero--subtitle {
 .project--card {
   /* animation: scrollIn 1s ease-in-out; */
   margin: 1.5rem;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: relative;
   text-align: center;
   /* transition: all 0.3s ease-in; */
@@ -693,7 +693,7 @@ h2.hero--subtitle {
   margin: 10px 0;
   position: absolute;
   transform: translateX(-50%);
-  width: 100%;
+  /* width: 100%; */
 }
 
 .project__btn {
