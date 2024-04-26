@@ -1,3 +1,4 @@
+import artistPortfolio from '../assets/images/portfolio/mhaynes_portfolio.png'
 import gameHub from '../assets/images/portfolio/game-hub.png'
 import cloudHosting from '../assets/images/portfolio/cloud-hosting.png'
 import inDev from '../assets/images/portfolio/inDev.png'
@@ -9,6 +10,12 @@ import passwordGenerator from '../assets/images/portfolio/password-generator.png
 import codeQuiz from '../assets/images/portfolio/code-quiz.png'
 
 const projects = [
+    {
+        title: 'Artist Portfolio',
+        image: artistPortfolio,
+        github: 'https://github.com/iggy-ziggy/MHaynes_Art_Portfolio',
+        deploy: 'https://mhaynes.netlify.app/'
+    },
     {
         title: 'Game Hub',
         image: gameHub,
